@@ -1,0 +1,14 @@
+function checkPalindrome(str){
+  let reversed = str.split("").reverse().join("")
+  return str === reversed
+}
+let str1 = "gag"
+let str2 = "kayak"
+let str3 = "php"
+checkPalindrome(str1)
+// -> true
+checkPalindrome(str2)
+// -> false
+checkPalindrome(str3)
+// -> true
+//0.52 ms
